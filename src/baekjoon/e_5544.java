@@ -63,8 +63,8 @@ public class e_5544 {
 //			}
 //		}
 	//}
-		for(int i=0; i<n; i++) {
-			for(int j = 0; j<n; j++) {
+		for(int i = 0; i < n; i++) {
+			for(int j = 0; j < n; j++) {
 				if(w[i][0] < w[j][0]) {
 					rank[i] = rank[i]+ 1;
 				}
